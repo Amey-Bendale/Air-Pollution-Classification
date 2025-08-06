@@ -88,19 +88,17 @@ You can use your own dataset for training and evaluation. Ensure that it is appr
 The first deep learning model is built using the Functional API. MobileNet is used as a pre-trained model for feature extraction, and an Artificial Neural Network (ANN) is added on top of it for classification. This model is suitable for classifying air quality from images.
 
 ### Sequential API with VGG16 <a name="sequential-api-model"></a>
-![Transfer Learning](https://github.com/nileshparab42/Air-Pollution-Classification/blob/main/docs/img/2.png)
-
+![image](https://github.com/user-attachments/assets/e82d97e2-15ed-48d2-97b9-392dabcdc855)
 
 The second model is constructed using the Sequential API and utilizes the VGG16 architecture with transfer learning. This approach is effective for leveraging pre-trained weights from VGG16 and fine-tuning them for air quality classification.
 
 ### Web Application <a name="web-application"></a>
-![Web App](https://github.com/nileshparab42/Air-Pollution-Classification/blob/main/docs/img/3.png)
-
+![image](https://github.com/user-attachments/assets/30a01d3e-542f-45c4-8812-b6a218133228)
 
 The project includes a web application built with Flask, allowing users to upload images and classify air quality using the VGG16 model. The web application provides a user-friendly interface for real-time air quality assessment.
 
 ## Results <a name="results"></a>
-![Cover image](https://github.com/nileshparab42/Air-Pollution-Classification/blob/main/docs/img/4.png)
+![e97228d7-5b53-4926-94c8-8ef525f0a466](https://github.com/user-attachments/assets/d31952d8-bac9-4ba5-98b3-4f0a07051906)
 
 In the air quality classifier project, we observed varying levels of accuracy between the two deep learning models employed:
 
@@ -145,4 +143,5 @@ python app.py
 5. Access the web application by opening a web browser and going to `http://localhost:5000`.
 
 ## License <a name="license"></a>
+
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license. See the LICENSE file for more details.
