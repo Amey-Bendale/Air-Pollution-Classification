@@ -82,13 +82,11 @@ You can use your own dataset for training and evaluation. Ensure that it is appr
 ## Models <a name="models"></a>
 
 ### Functional API with MobileNet and ANN <a name="functional-api-model"></a>
-![Functional api](https://github.com/nileshparab42/Air-Pollution-Classification/blob/main/docs/img/1.png)
-
+![image](https://github.com/user-attachments/assets/e82d97e2-15ed-48d2-97b9-392dabcdc855)
 
 The first deep learning model is built using the Functional API. MobileNet is used as a pre-trained model for feature extraction, and an Artificial Neural Network (ANN) is added on top of it for classification. This model is suitable for classifying air quality from images.
 
 ### Sequential API with VGG16 <a name="sequential-api-model"></a>
-![image](https://github.com/user-attachments/assets/e82d97e2-15ed-48d2-97b9-392dabcdc855)
 
 The second model is constructed using the Sequential API and utilizes the VGG16 architecture with transfer learning. This approach is effective for leveraging pre-trained weights from VGG16 and fine-tuning them for air quality classification.
 
@@ -145,3 +143,4 @@ python app.py
 ## License <a name="license"></a>
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license. See the LICENSE file for more details.
+
